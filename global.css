@@ -1,0 +1,21 @@
+.image-grid {
+    min-height: 80duh;
+
+    display:grid;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    flex-direction: row | row-reverse;
+}
+
+
+
+
+
