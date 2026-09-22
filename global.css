@@ -1,21 +1,155 @@
-.image-grid {
-    min-height: 80duh;
 
-    display:grid;
-    align-items: center;
-    justify-content: flex-end;
+
+.invert {
+    filter: invert(100%);
+    max-height: 50px;
+    max-width: 50px;
     
 }
 
+.add-icon {
+    display:flex;
+    justify-content:flex-end;
+    filter:invert(100%);
+    max-height: 20px;
+    max-width: 20px;
+
+}
+
+.Browser {
+    /* background-color: #242424; */
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.search-icon{
+    max-height: 30px;
+    max-width: 30px;
+}
+
+
+.logo-link {
+    text-decoration: none;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.flexAround {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    width: 430px;
+    height: 48x;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    padding:0 14PX;
+    background-color: #242424;
+}
+
+.search-text{
+    min-width: 250px;
+}
+.home-logo{
+    max-width: 40px;
+    max-height: 40px;
+    background: darkgrey;
+    border-radius: 20px;
+    
+
+}
+
+
+.links {
+    text-decoration: none;
+}
+
+
+
+
 body {
     background-color: black;
+    min-width: 2px;
+    min-height: 4px;
+    color:white;
 }
 
-.container {
-    flex-direction: row | row-reverse;
+.album-wrapper {
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.album-art {
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.album-art img{
+    height: 150px;
+    width: 150px;
+}
+
+p {
+    text-align:left;
+
+}
+
+section {
+    background-color: rgba(128, 128, 128, 0.248);
+}
+
+.featured-albums {
+    text-align:start;
+
+}
+
+.featured-grid {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: 2rem;
+}
+
+aside {
+    background-color: rgba(128, 128, 128, 0.248);
+    height: 700px;
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+
 }
 
 
+main {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.Library {
+    background-color: rgba(128, 128, 128, 0.248);
+    padding: 4rem;
+    min-height: 50%;
+    max-width: 1000px;
+
+}
+
+footer {
+    background: linear-gradient(to right, rgb(185, 29, 151) 54%, #1e1ed7);
 
 
+}
+
+.signup-button{
+    border-radius: 30%;
+    max-width: 100px;
+    min-height: 20px
+}
 

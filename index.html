@@ -8,37 +8,180 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="flexAround">
         <!-- Navigation -->
+        
         <a href="./" id="logo">
-        <img src="./images/logos/spotify-logo.png" alt="spotify-logo">
-        <img src="./images/Icons/home-icon.png" alt="home-icon">
-        <img src="./images/Icons/search-icon.png" alt="search-icon">
+            <img class="invert" src="./images/logos/spotify-logo.png" alt="spotify-logo">
         </a>
+        <section class="container">
+            <div class="center-column flexAround">
+                <div class="home-logo">
+                    <a href="./index.html">
+                        <img class="home-logo" src="./images/icons/home-icon.png" style ="filter:invert(100%);" alt="home-icon">
+                    </a>
+                </div>
 
-        <a href="#"class="nav-link">sign up</a>
-        <a href="#"class="nav-link">Login</a>
-        <a href="#"class="nav-link">Install app</a>
-     </nav>
 
-     <div>
-        <img src="./images/album-images/$ome$exy$ongs4 u-PARTYNEXTDOOR,Drake.jpg" alt="PartyNextDoor">
-        <img src="./images/album-images/10HoursofContinuousRain...-WhiteNoiseRadiance,RainSounds.jpg" alt="10 Hours of white noise">
-        <img src="./images/album-images/BestWhiteNoiseforBabySleep-Dream-Supplier,BabySleeps,GranularNoise.jpg" alt="White noise for babys">
-        <img src="./images/album-images/Blonde-FrankOcean.jpg" alt="Blonde-FrankOcean">
-        <img src="./images/album-images/CHROMAKOPIA-Tyler,TheCreator.jpg" alt="CHROMAKOPIA-Tyler">
-        <img src="./images/album-images/DeBiToRARMaSFOToS-BadBunny.jpeg" alt="DeBiToRARMaSFOToS-BadBunny">
-        <img src="./images/album-images/EvenInArcadia-SleepToken.jpg" alt="EvenInArcadia-SleepToken">
-        <img src="./images/album-images/GNX-KendrickLamar.jpg" alt="GNX-KendrickLamar">
-        <img src="./images/album-images/hamilton(originalbroadwaycastrecording)-LinManuelMiranda.jpg" alt="hamilton">
-        <img src="./images/album-images/HITMEHARDANDSOFT-BillieEilish.jpg" alt="HITMEHARDANDSOFT-BillieEilish">
-        <img src="./images/album-images/HurryUpTomorrow-TheWeeknd.jpeg" alt="HurryUpTomorrow-TheWeeknd">
-        <img src="./images/album-images/I'mTheProblem-MorganWallen.jpg" alt="I'mTheProblem-MorganWallen">
-        <img src="./images/album-images/MUSIC-PlayboiChitarti.jpeg" alt="MUSIC-PlayboiChitarti">
-        <img src="./images/album-images/reputation-TaylorSwift.jpg" alt="reputation-TaylorSwift">
-        <img src="./images/album-images/Shortn'Sweet-SabrinaCarpenter.jpg" alt="Sweet-SabrinaCarpenter">
-        <img src="./images/album-images/UnVeranoSinTi-BadBunny.jpg" alt="UnVeranoSinTi-BadBunny">
-    </div>
+                <div class="search-wrapper">
+                    <form class="flexAround" action="search-container">
+                        <img id="search-icon" class="search-icon"src="./images/Icons/search-icon.png" style="filter: invert(100);" alt="Search">
+                        <!-- input type=search -->
+                        <p class="search-text">what do you want to play?</p>
+                        <p class="divider"></p>
+                        <img class="Browser" src="./images/Icons/laundry-basket-icon.png"  style= "filter:invert(100%);" alt="Browser">
+                    </form>
+                </div>  
+            </div>
+        </section>
+
+            <div class="links flexAround">
+                <a href="#">sign up</a>
+                <a href="#">Login</a>
+                <a href="#">Install app</a>
+            </div>
+        
+    </nav>
+
+    <main>
+        <aside>
+            <section>
+                <div class="flexAround">
+                    <h1 class="Library-box">Your Library</h1>
+                    <img class="add-icon"src="./images/icons/add-icon.png" alt="add-icon">
+                </div>
+
+                <div class="library-card">
+                    <h3>Create your first play list!</h3>
+                    <p>Its easy</p>
+                    <button>create playlist</button>
+                </div>
+
+                <div class="library-card">
+                    <h3>Lets find some podcast to follow</h3>
+                    <p>We'll keep you updated on new episodes.</p>
+                    <button>Browser Podcast</button>
+                </div>
+
+            </section>
+
+
+
+        </aside>
+        <!-- Main content -->
+        <section>
+                <h3 class="featured-albums">Popular Albums</h3>
+                
+                <div class="album-wrapper">
+                    <article class="album-art">
+                        <img src="./images/album-images/$ome$exy$ongs4 u-PARTYNEXTDOOR,Drake.jpg" alt="PartyNextDoor">
+                        <h3>PARTYNEXTDOOR</h3>
+                        <p>Drake</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/10HoursofContinuousRain...-WhiteNoiseRadiance,RainSounds.jpg" alt="10 Hours of white noise">
+                        <h3>10 Hours of Continuous Rain</h3>
+                        <p>White Noise Radiance</p>
+                    </article>
+                    
+                    <article class="album-art" >
+                        <img src="./images/album-images/BestWhiteNoiseforBabySleep-Dream-Supplier,BabySleeps,GranularNoise.jpg" alt="White noise for babys">
+                        <h3>Best White Noise for Baby Sleep</h3>
+                        <p>Dream Supplier</p>
+                    </article >
+                    
+                    <article class="album-art" >
+                        <img src="./images/album-images/Blonde-FrankOcean.jpg" alt="Blonde-FrankOcean">
+                        <h3>Blonde</h3>
+                        <p>Frank Ocean</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/CHROMAKOPIA-Tyler,TheCreator.jpg" alt="CHROMAKOPIA-Tyler">
+                        <h3>CHROMAKOPIA</h3>
+                        <p>Tyler, The Creator</p>
+                    </article>
+                    
+                    <article class="album-art" >
+                        <img src="./images/album-images/DeBiToRARMaSFOToS-BadBunny.jpeg" alt="DeBiToRARMaSFOToS-BadBunny">
+                        <h3>Debitor ARMAS FOTOS</h3>
+                        <p>Bad Bunny</p>
+                    </article>
+                    
+                    <article class="album-art" >
+                        <img src="./images/album-images/EvenInArcadia-SleepToken.jpg" alt="EvenInArcadia-SleepToken">
+                        <h3>Even in Arcadia</h3>
+                        <p>Sleep Token</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/GNX-KendrickLamar.jpg" alt="GNX-KendrickLamar">
+                        <h3>GNX</h3>
+                        <p>Kendrick Lamar</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/hamilton(originalbroadwaycastrecording)-LinManuelMiranda.jpg" alt="hamilton">
+                        <h3>Hamilton</h3>
+                        <p>Lin-Manuel Miranda</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/HITMEHARDANDSOFT-BillieEilish.jpg" alt="HITMEHARDANDSOFT-BillieEilish">
+                        <h3>HIT ME HARD AND SOFT</h3>
+                        <p>Billie Eilish</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/HurryUpTomorrow-TheWeeknd.jpeg" alt="HurryUpTomorrow-TheWeeknd">
+                        <h3>Hurry Up Tomorrow</h3>
+                        <p>The Weeknd</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/I'mTheProblem-MorganWallen.jpg" alt="I'mTheProblem-MorganWallen">
+                        <h3>I'm The Problem</h3>
+                        <p>Morgan Wallen</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/MUSIC-PlayboiCarti.jpeg" alt="MUSIC-PlayboiCarti">
+                        <h3>MUSIC</h3>
+                        <p>Playboi Carti</p>
+                    </article> 
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/reputation-TaylorSwift.jpg" alt="reputation-TaylorSwift">
+                        <h3>Reputation</h3>
+                        <p>Taylor Swift</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/Shortn'Sweet-SabrinaCarpenter.jpg" alt="Sweet-SabrinaCarpenter">
+                        <h3>Shortn'Sweet</h3>
+                        <p>Sabrina Carpenter</p>
+                    </article>
+                    
+                    <article class="album-art">
+                        <img src="./images/album-images/UnVeranoSinTi-BadBunny.jpg" alt="UnVeranoSinTi-BadBunny">
+                        <h3>Un Verano Sin Ti</h3>
+                        <p>Bad Bunny</p>
+                    </article>
+                </div>
+                
+
+            </section>
+        </main>
+
+        <footer class="flexAround">
+            <div>
+                <h3>Sign up for a free account to create playlists and follow artists.</h3>
+                <p>Sign up now to get started!</p>
+            </div>
+
+            <button class="signup-button">Sign up free</button>
+        </footer>
 
 
     
